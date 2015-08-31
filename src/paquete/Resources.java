@@ -8,12 +8,12 @@ package paquete;
 * crear clase hija: HardResources -> clases hijas: Books; Magazines; Newsletter
 * */
 
-public class Resources{
+public class Resources implements Comparable<Resources>{
 
     public Resources(String nombre, String autor, String categoria){
-        name = nombre;
-        author = autor;
-        category = categoria;
+        name = nombre.trim();
+        author = autor.trim();
+        category = categoria.trim();
         System.out.println("\t\tResource created, name: "+name+"; Author: "+author+"; Category: "+category);
     }
     /*
@@ -27,6 +27,11 @@ public class Resources{
     }
     public String getAuthor(){
         return author;
+    }
+
+    public int compareTo(Resources compareResource) {
+
+        return name.toUpperCase().compareTo(compareResource.getName().toUpperCase());
     }
 
 
