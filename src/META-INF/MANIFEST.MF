@@ -1,4 +1,4 @@
 Manifest-Version: 1.0
-Class-Path: FirstSample.jar
+Class-Path: /home/francisco/FirstSample/first-example/
 Main-Class: paquete.FirstSampl
 
