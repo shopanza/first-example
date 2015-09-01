@@ -11,3 +11,9 @@ News Paper
 
 User's won't be able to remove News Paper from the library
 Also, the resources belongs to one category: Kids, Science, entertainment; 
+
+UPDATED:
+
+Can't make jar from Intellij. Open the project and run it, if you have any question, just write 'help' and hit enter.
+
+

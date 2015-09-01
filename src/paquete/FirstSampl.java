@@ -142,6 +142,7 @@ public class FirstSampl {
          */
 
     public void createShelve(String n, String n_shelve){
+
         for(int i = 0; i < mi_lybrarie.size(); i++)
             if (n.equals(mi_lybrarie.get(i).getName()))
                 mi_lybrarie.get(i).createShelves(n_shelve);
